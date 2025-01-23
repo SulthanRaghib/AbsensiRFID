@@ -13,8 +13,8 @@
     <!-- KONTEN -->
     <div class="container">
         <div class="d-flex justify-content-between align-items-center">
-            <h1>Data Karyawan</h1>
-            <a href="tambah_karyawan.php" class="btn btn-primary">Tambah Karyawan</a>
+            <h1>Data Siswa</h1>
+            <a href="tambah_karyawan.php" class="btn btn-primary">Tambah Siswa</a>
         </div>
 
 

@@ -94,7 +94,18 @@ if ($hasil_query && mysqli_num_rows($hasil_query) > 0) {
                 mysqli_query($connect, "INSERT INTO absensi (no_kartu, tanggal, jam_masuk) VALUES ('$no_kartu', '$tanggal', '$jam')");
             } else {
                 // update sesuai pilihan mode absen
-                if ($mode_absen == 2) {
+                if ($mode_absen == 1) {
+                    echo "
+                    <script>
+                        Swal.fire({
+                            title: 'Selamat Pagi, Anda Sudah Absen Masuk',
+                            text: '$nama',
+                            icon: 'success',
+                            confirmButtonText: 'OK'
+                        });
+                    </script>
+                    ";
+                } else if ($mode_absen == 2) {
                     echo "
                     <script>
                         Swal.fire({

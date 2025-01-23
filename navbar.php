@@ -9,7 +9,7 @@
             <div class="navbar-nav">
                 <a class="nav-link" href="#">Home</a>
                 <a class="nav-link"
-                    href="index.php">Data Karyawan</a>
+                    href="index.php">Data Siswa</a>
                 <a class="nav-link" href="absensi.php">Rekapitulasi Absensi</a>
                 <a class="nav-link" href="scan.php">Scan Kartu</a>
             </div>
